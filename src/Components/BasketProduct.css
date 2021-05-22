@@ -1,0 +1,35 @@
+.basketProduct {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+}
+.basketProduct__img > img {
+  width: 120px;
+}
+.basketProduct__details {
+  padding: 10px 20px;
+}
+.basketProduct__details > h1 {
+  font-size: 16px;
+  font-weight: 700;
+}
+.basketProduct__details > div {
+  padding-top: 5px;
+  font-size: 18px;
+}
+.basketProduct__details > div > span {
+  font-weight: 700;
+}
+.basketProduct__details > button {
+  background-color: rgb(241, 171, 57);
+  border: 1px solid rgb(128, 79, 0);
+  padding: 3px 5px;
+  margin-top: 15px;
+  transition: all 0.3s;
+}
+.basketProduct__details > button:hover {
+  cursor: pointer;
+}
+.basketProduct__details > button:active {
+  transform: scale(0.85);
+}

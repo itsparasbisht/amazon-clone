@@ -1,0 +1,21 @@
+.slider {
+  width: 100%;
+  height: 400px;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  margin-bottom: -100px;
+}
+.aws-btn {
+  --slider-height-percentage: 60%;
+  --slider-transition-duration: 700ms;
+  --organic-arrow-thickness: 6px;
+  --organic-arrow-border-radius: 0px;
+  --organic-arrow-height: 40px;
+  --organic-arrow-color: #ffffff;
+  --control-button-width: 10%;
+  --control-button-height: 25%;
+  --control-button-background: transparent;
+  --control-bullet-color: #000000;
+  --control-bullet-active-color: #cf9610;
+  --loader-bar-color: #ffa600;
+  --loader-bar-height: 4px;
+}
